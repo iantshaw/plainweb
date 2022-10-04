@@ -20,7 +20,7 @@ export default function AigNavbar() {
 
           <Nav>
           <Nav.Link href="#deets">About Us</Nav.Link>
-          <Nav.Link href="#deets">Recruitement</Nav.Link>
+          <Nav.Link href="#deets">Recruitment</Nav.Link>
           <Nav.Link href="#deets">Contact</Nav.Link>
           </Nav>
 
