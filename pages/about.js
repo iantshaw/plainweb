@@ -15,6 +15,8 @@ export default function About() {
   
         <AigNavbar />
 
+<div className='container'>About Us!</div>
+
 
 <AigFooter />
 

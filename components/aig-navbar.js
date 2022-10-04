@@ -19,9 +19,9 @@ export default function AigNavbar() {
           </Navbar.Brand>
 
           <Nav>
-          <Nav.Link href="#deets">About Us</Nav.Link>
-          <Nav.Link href="#deets">Recruitment</Nav.Link>
-          <Nav.Link href="#deets">Contact</Nav.Link>
+          <Nav.Link href="/about">About Us</Nav.Link>
+          <Nav.Link href="/recruitment">Recruitment</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
 
         </Container>
