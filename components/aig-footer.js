@@ -114,22 +114,23 @@ export default function AigFooter() {
 
                             {/* Grid column */}
                             <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                                {/* Facebook */}
+
 
 
                                 {/* Twitter */}
                                 <a
-                                    className="btn btn-outline-light btn-floating m-1"
+                                    className="btn btn-outline-light btn-floating m-1 text-white"
                                     className="text-white"
                                     role="button"
+                                    href='https://twitter.com/aigencehq'
                                 ><FontAwesomeIcon icon={faTwitter} /></a>
 
                                 {/* LinkedIn */}
                                 <a
-                                    className="btn btn-outline-light btn-floating m-1"
+                                    className="btn btn-outline-light btn-floating m-1 text-white"
                                     className="text-white p-3"
                                     role="button"
-                                    
+                                    href="https://www.linkedin.com/company/aigence/"
                                 >
                                     
                                 <FontAwesomeIcon icon={faLinkedinIn} /></a>
@@ -138,6 +139,7 @@ export default function AigFooter() {
                                 <a
                                     className="btn btn-outline-light btn-floating m-1"
                                     className="text-white"
+                                    href='https://www.instagram.com/aigencehq/'
                                     role="button"
                                 ><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>

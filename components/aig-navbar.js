@@ -9,6 +9,7 @@ export default function AigNavbar() {
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand fixed='top' href="#home">
+          <Nav.Link href="/">
             <img
               src="../images/logo.png"
               width="110"
@@ -16,6 +17,7 @@ export default function AigNavbar() {
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
+            </Nav.Link>
           </Navbar.Brand>
 
           <Nav>

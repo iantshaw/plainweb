@@ -28,7 +28,7 @@ export default function Home() {
                 <h1 className="display-5 fw-bold lh-1 mb-3 mt-5 text-white">Redefining Payroll</h1>
                 <p className="lead text-white">Slash time spent on payroll administration and make your team happy.</p>
                 <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button type="button" className="btn btn-light btn-lg px-4 me-md-2">Primary</button>
+                  {/*<button type="button" className="btn btn-light btn-lg px-4 me-md-2">Primary</button>*/}
                 </div>
               </div>
             </div>
