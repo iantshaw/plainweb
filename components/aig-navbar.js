@@ -11,7 +11,7 @@ export default function AigNavbar() {
         <Navbar.Brand fixed='top'>
           <Nav.Link href="/">
             <img
-              src="../images/logo.png"
+              src="../images/aigence-logo-coral.svg"
               width="110"
 
               className="d-inline-block align-top"
