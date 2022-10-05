@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="62.547504mm"
+   height="64.135002mm"
+   viewBox="0 0 62.547504 64.135002"
+   version="1.1"
+   id="svg211"
+   sodipodi:docname="recruitment-violet.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview213"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="18"
+     inkscape:cy="249"
+     inkscape:window-width="1515"
+     inkscape:window-height="948"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs208">
+    <filter
+       inkscape:label="Fast Crop"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region"
+       style="color-interpolation-filters:sRGB"
+       id="filter1031">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         id="feColorMatrix1029" />
+    </filter>
+    <filter
+       inkscape:label="Fast Crop"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region"
+       style="color-interpolation-filters:sRGB"
+       id="filter1035">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         id="feColorMatrix1033"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1064" />
+      <feColorMatrix
+         id="feColorMatrix1066"
+         type="saturate"
+         values="1"
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-61.462708,-14.234583)">
+    <ellipse
+       style="fill:#b8a4d6;fill-opacity:1;stroke-width:0.264583;filter:url(#filter1031)"
+       id="path948"
+       cx="92.736458"
+       cy="46.302082"
+       rx="26.061459"
+       ry="26.722916"
+       transform="matrix(1.1861252,0,0,1.1856435,-16.996009,-8.463392)" />
+    <path
+       d="m 77.820564,62.309373 q -1.071562,0 -1.875217,-0.751974 -0.803688,-0.751973 -0.803688,-1.754605 v -20.05263 q 0,-1.002632 0.803688,-1.754606 0.803655,-0.751973 1.875217,-0.751973 h 8.036713 v -4.177633 q 0,-1.002632 0.80369,-1.754605 0.803654,-0.751974 1.875214,-0.751974 h 8.929708 q 1.07156,0 1.875217,0.751974 0.803684,0.751973 0.803684,1.754605 v 4.177633 h 8.03673 q 1.07156,0 1.87522,0.751973 0.80369,0.751974 0.80369,1.754606 v 20.05263 q 0,1.002632 -0.80369,1.754605 -0.80366,0.751974 -1.87522,0.751974 z m 0,-2.506579 H 108.18152 V 39.750164 H 77.820564 Z M 88.536181,37.243585 h 8.929708 V 33.065952 H 88.536181 Z M 77.820564,59.802794 v -20.05263 z"
+       id="path535"
+       style="fill:#ffffff;stroke-width:0.863769" />
+  </g>
+</svg>

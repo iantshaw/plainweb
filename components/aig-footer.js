@@ -15,7 +15,7 @@ export default function AigFooter() {
     return (
 
 
-        <div className="container my-5">
+        <div className="container">
             {/* Footer */}
             <footer
                 className="text-center text-lg-start text-white bg-dark"

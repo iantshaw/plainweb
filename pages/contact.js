@@ -4,7 +4,7 @@ import AigNavbar from '../components/aig-navbar';
 import AigFooter from '../components/aig-footer';
 
 
-export default function About() {
+export default function Contact() {
     return (
       <div>
   
@@ -15,7 +15,9 @@ export default function About() {
   
         <AigNavbar />
 
-        <div className='container'>Contact</div>
+<div className='container'>Contact!</div>
+
+
 <AigFooter />
 
     </div >

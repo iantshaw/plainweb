@@ -42,17 +42,17 @@ export default function Home() {
       <div className='container'>
         <div className="row">
           <div className="col-lg-4 text-center mt-n3">
-            <img src="../images/my-first-drawin.svg" className="rounded-circle shadow mx-lg-auto " alt="Bootstrap Themes" width="100" height="100" loading="lazy" />
+            <img src="../images/recruitment.svg" className="rounded-circle shadow mx-lg-auto " alt="Bootstrap Themes" width="100" height="100" loading="lazy" />
             <h5 className='mt-3'>Sign Up to Our Beta Programme</h5>
             <p>And lastly this, the third column of representative placeholder content.</p>
           </div>
           <div className="col-lg-4 text-center mt-n3">
-            <img src="../images/my-first-drawin.svg" className="rounded-circle shadow mx-lg-auto " alt="Bootstrap Themes" width="100" height="100" loading="lazy" />
+            <img src="../images/recruitment.svg" className="rounded-circle shadow mx-lg-auto " alt="Bootstrap Themes" width="100" height="100" loading="lazy" />
             <h5 className='mt-3'>We Are Hiring!</h5>
             <p>And lastly this, the third column of representative placeholder content.</p>
           </div>
           <div className="col-lg-4 text-center mt-n3">
-            <img src="../images/my-first-drawin.svg" className="rounded-circle shadow mx-lg-auto " alt="Bootstrap Themes" width="100" height="100" loading="lazy" />
+            <img src="../images/recruitment.svg" className="rounded-circle shadow mx-lg-auto " alt="Bootstrap Themes" width="100" height="100" loading="lazy" />
             <h5 className='mt-3'>More things!</h5>
             <p>And lastly this, the third column of representative placeholder content.</p>
           </div>
