@@ -23,7 +23,7 @@ export default function AigNavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
-          <Nav>
+          <Nav className='ms-auto'>
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/recruitment">Recruitment</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
