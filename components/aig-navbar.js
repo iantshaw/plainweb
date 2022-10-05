@@ -4,11 +4,11 @@ import Nav from 'react-bootstrap/Nav';
 
 
 export default function AigNavbar() {
-    return (
-    
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand fixed='top' href="#home">
+  return (
+
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
+      <Container>
+        <Navbar.Brand fixed='top' href="#home">
           <Nav.Link href="/">
             <img
               src="../images/logo.png"
@@ -17,18 +17,22 @@ export default function AigNavbar() {
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
-            </Nav.Link>
-          </Navbar.Brand>
+          </Nav.Link>
+        </Navbar.Brand>
 
-          <Nav>
-          <Nav.Link href="/about">About Us</Nav.Link>
-          <Nav.Link href="/recruitment">Recruitment</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+
+          <Nav className='me-auto'>
+            <Nav.Link href="/about">About Us</Nav.Link>
+            <Nav.Link href="/recruitment">Recruitment</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
 
-        </Container>
-      </Navbar>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 
-    
-        );
+
+  );
 };
