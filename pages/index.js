@@ -20,7 +20,7 @@ export default function Home() {
           <div className="col-2 bg-info">
           </div>
           <div className="col-8 bg-info">
-            <div className="row flex-lg-row-reverse g-5 py-5">
+            <div className="row flex-lg-row-reverse g-1 py-5">
               <div className="col-10 col-sm-8 col-lg-6">
                 <img src="../images/hero-image.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="250" loading="lazy" />
               </div>
