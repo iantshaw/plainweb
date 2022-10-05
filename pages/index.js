@@ -33,7 +33,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="col-2 bg-info">
+          <div className="col-2 bg-info">
           </div>
         </div>
       </div>
@@ -63,37 +63,37 @@ export default function Home() {
 
 
 
-      <div class="container px-4 py-5" id="featured-3">
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <div class="feature-icon bg-primary bg-gradient">
+      <div className="container px-4 py-5" id="featured-3">
+        <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div className="feature col">
+            <div className="feature-icon bg-primary bg-gradient">
 
             </div>
             <h2>Featured title</h2>
             <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
+            <a href="#" className="icon-link">
               Call to action
 
             </a>
           </div>
-          <div class="feature col">
-            <div class="feature-icon bg-primary bg-gradient">
+          <div className="feature col">
+            <div className="feature-icon bg-primary bg-gradient">
 
             </div>
             <h2>Featured title</h2>
             <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
+            <a href="#" className="icon-link">
               Call to action
 
             </a>
           </div>
-          <div class="feature col">
-            <div class="feature-icon bg-primary bg-gradient">
+          <div className="feature col">
+            <div className="feature-icon bg-primary bg-gradient">
 
             </div>
             <h2>Featured title</h2>
             <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
+            <a href="#" className="icon-link">
               Call to action
 
             </a>

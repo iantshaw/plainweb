@@ -8,14 +8,14 @@ export default function AigNavbar() {
 
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
       <Container>
-        <Navbar.Brand fixed='top' href="#home">
+        <Navbar.Brand fixed='top'>
           <Nav.Link href="/">
             <img
               src="../images/logo.png"
               width="110"
 
               className="d-inline-block align-top"
-              alt="React Bootstrap logo"
+              alt="Aigence"
             />
           </Nav.Link>
         </Navbar.Brand>
@@ -23,7 +23,7 @@ export default function AigNavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
-          <Nav className='me-auto'>
+          <Nav>
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/recruitment">Recruitment</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
