@@ -44,13 +44,13 @@ export default function AigFooter() {
                             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                                 <h6 className="text-uppercase mb-4 font-weight-bold"></h6>
                                 <p>
-                                    <a className="text-white">About Us</a>
+                                    <a className="text-white" href="/about">About Us</a>
                                 </p>
                                 <p>
-                                    <a className="text-white">Recruitment</a>
+                                    <a className="text-white" href="/recruitment">Recruitment</a>
                                 </p>
                                 <p>
-                                    <a className="text-white">Contact</a>
+                                    <a className="text-white" href="/contact">Contact</a>
                                 </p>
                                 <p>
                                     <a className="text-white"></a>
@@ -66,7 +66,7 @@ export default function AigFooter() {
                                 
                                 </h6>
                                 <p>
-                                    <a className="text-white">Privacy Policy</a>
+                                    <a className="text-white" href="/privacy-policy">Privacy Policy</a>
                                 </p>
                                 <p>
                                     <a className="text-white"></a>
