@@ -1,0 +1,49 @@
+.panelwrap {
+    margin-bottom: 1px;
+}
+
+.panelwrap.activepanel .panelheader {
+    background: #a53939;
+}
+
+.panelwrap.active-panel .panelheader button {
+    color: #ffffff;
+}
+
+.panelheader {
+    border: 0px solid rgba(255, 255, 255, 0.8) !important;
+    font-weight: normal;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.panelheader button {
+    border: none;
+    background: rgb(246, 246, 246) !important;
+
+}
+
+.panelheader button:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+.panelbody {
+    border: 1px solid #ffffff;
+    background: #f8f8f8;
+    color: #333333;
+    padding: 2px;
+    border-top: none;
+}
+
+.panelbody:focus {
+    box-shadow: none;
+    color: #333333;
+    border-color: rgba(0,0,0,.125);
+}
+
+.test {
+    color: #cd0c0c;
+    font-size: xx-large;
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+}
+
