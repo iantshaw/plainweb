@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
 import AigNavbar from '../components/aig-navbar';
 import AigFooter from '../components/aig-footer';
 
