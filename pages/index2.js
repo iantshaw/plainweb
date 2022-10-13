@@ -8,7 +8,7 @@ export default function Home() {
 
 
       <Head>
-        <title>{siteTitle}</title>
+        <title></title>
       </Head>
 
       <AigNavbar />

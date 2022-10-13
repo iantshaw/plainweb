@@ -9,7 +9,7 @@ export default function About() {
   
   
         <Head>
-          <title>{siteTitle}</title>
+          <title></title>
         </Head>
   
         <AigNavbar />

@@ -9,7 +9,7 @@ export default function Contact() {
   
   
         <Head>
-          <title>{siteTitle}</title>
+          <title></title>
         </Head>
   
         <AigNavbar />
