@@ -5,36 +5,31 @@ import AigFooter from '../components/aig-footer';
 export default function Home() {
   return (
     <div>
-
-
       <Head>
-        <title></title>
+        <title>Aigence - Redefining Payroll</title>
       </Head>
 
       <AigNavbar />
 
 
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-2 bg-info">
-          </div>
-          <div className="col-8 bg-info">
-            <div className="row flex-lg-row-reverse g-1 py-5">
-              <div className="col-10 col-sm-8 col-lg-6">
-                <img src="../images/hero-image.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="250" loading="lazy" />
-              </div>
-              <div className="col-lg-6">
-                <h1 className="display-5 fw-bold lh-1 mb-3 mt-5 text-white">Redefining Payroll</h1>
-                <p className="lead text-white">Slash time spent on payroll administration and make your team happy.</p>
-                <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                  {/*<button type="button" className="btn btn-light btn-lg px-4 me-md-2">Primary</button>*/}
-                </div>
+      <div className="container-fluid bg-info">
+
+
+
+          <div className="row flex-lg-row-reverse g-1 py-5 p-5">
+            <div className="col-10 col-sm-8 col-lg-6">
+              <img src="../images/hero-image.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="250" loading="lazy" />
+            </div>
+            <div className="col-lg-5 p-5">
+              <h1 className="display-5 fw-bold lh-1 mb-3 mt-5 text-white">Redefining Payroll</h1>
+              <p className="lead text-white">Slash time spent on payroll administration and make your team happy.</p>
+              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+                {/*<button type="button" className="btn btn-light btn-lg px-4 me-md-2">Primary</button>*/}
               </div>
             </div>
           </div>
-          <div className="col-2 bg-info">
-          </div>
-        </div>
+
+
       </div>
 
 
@@ -104,6 +99,7 @@ export default function Home() {
       <div className='container-fluid bg-dark'>
         <AigFooter />
       </div>
+      
     </div >
   );
 }
