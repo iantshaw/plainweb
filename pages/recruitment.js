@@ -117,7 +117,6 @@ export default function About() {
 
 
 
-
       <div className='container-fluid bg-dark'>
         <AigFooter />
       </div>

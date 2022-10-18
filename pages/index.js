@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import AigNavbar from '../components/aig-navbar';
 import AigFooter from '../components/aig-footer';
-
+import { Container } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 export default function Home() {
   return (
     <div>
@@ -12,25 +14,22 @@ export default function Home() {
       <AigNavbar />
 
 
-      <div className="container-fluid bg-info">
+      <Container fluid className='bg-info'>
+        <Row className='justify-content-md-center'>
+          <Col xs lg='3' className='m-5'>
+            <h1 className="display-5 fw-bold lh-1 mb-3 mt-5 text-white">Redefining Payroll</h1>
+            <p className="lead text-white">Slash time spent on payroll administration and make your team happy.</p>
+          </Col>
+          <Col xs lg='3' className='m-5'>
+            <img src="../images/hero-image.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="250" loading="lazy" />
+          </Col>
+        </Row>
+      </Container>
 
 
 
-          <div className="row flex-lg-row-reverse g-1 py-5 p-5">
-            <div className="col-10 col-sm-8 col-lg-6">
-              <img src="../images/hero-image.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="250" loading="lazy" />
-            </div>
-            <div className="col-lg-5 p-5">
-              <h1 className="display-5 fw-bold lh-1 mb-3 mt-5 text-white">Redefining Payroll</h1>
-              <p className="lead text-white">Slash time spent on payroll administration and make your team happy.</p>
-              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                {/*<button type="button" className="btn btn-light btn-lg px-4 me-md-2">Primary</button>*/}
-              </div>
-            </div>
-          </div>
 
 
-      </div>
 
 
       <div className='container'>
@@ -99,7 +98,7 @@ export default function Home() {
       <div className='container-fluid bg-dark'>
         <AigFooter />
       </div>
-      
+
     </div >
   );
 }
