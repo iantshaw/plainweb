@@ -24,7 +24,9 @@ export default function About() {
 </div>
 
 
-<AigFooter />
+<div className='container-fluid bg-dark'>
+        <AigFooter />
+      </div>
 
     </div >
   );
