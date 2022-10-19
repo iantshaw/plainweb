@@ -4,20 +4,22 @@ import AigFooter from '../components/aig-footer';
 
 
 export default function Contact() {
-    return (
-      <div>
-  
-  
-        <Head>
-          <title></title>
-        </Head>
-  
-        <AigNavbar />
-
-<div className='container'>Contact!</div>
+  return (
+    <div>
 
 
-<AigFooter />
+      <Head>
+        <title>Aigence - Contact Us</title>
+      </Head>
+
+      <AigNavbar />
+
+      <div className='container'>Contact!</div>
+
+
+      <div className='container-fluid bg-dark'>
+        <AigFooter />
+      </div>
 
     </div >
   );
