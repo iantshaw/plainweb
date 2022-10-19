@@ -4,7 +4,7 @@ import AigFooter from '../components/aig-footer';
 
 export default function Home() {
   return (
-    <div>
+    <div className='overflow-hidden'>
 
 
       <Head>

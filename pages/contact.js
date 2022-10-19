@@ -5,7 +5,7 @@ import AigFooter from '../components/aig-footer';
 
 export default function Contact() {
   return (
-    <div>
+    <div className='overflow-hidden'>
 
 
       <Head>

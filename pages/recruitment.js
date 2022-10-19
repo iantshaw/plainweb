@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function About() {
   return (
-    <div>
+    <div className='overflow-hidden'>
 
 
       <Head>
@@ -52,7 +52,7 @@ export default function About() {
                   <br />
                   <JobAccordion />
                 </Card.Text>
-                <Button variant="primary text-white">Apply Now</Button>
+                <Button variant="info text-white">Apply Now</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -68,7 +68,7 @@ export default function About() {
                   <br />
                   <JobAccordion />
                 </Card.Text>
-                <Button variant="primary text-white">Apply Now</Button>
+                <Button variant="info text-white">Apply Now</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -87,7 +87,7 @@ export default function About() {
                   <br />
                   <JobAccordion />
                 </Card.Text>
-                <Button variant="primary text-white">Apply Now</Button>
+                <Button variant="info text-white">Apply Now</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -103,7 +103,7 @@ export default function About() {
                   <br />
                   <JobAccordion />
                 </Card.Text>
-                <Button variant="primary text-white">Apply Now</Button>
+                <Button variant="info text-white">Apply Now</Button>
               </Card.Body>
             </Card>
           </Col>
