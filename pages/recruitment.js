@@ -54,7 +54,7 @@ export default function About() {
                   <br />
                   <JobAccordion />
                 </Card.Text>
-                <Button variant="info text-white">Apply Now</Button>
+                <Button variant="primary text-white">Apply Now</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -80,7 +80,7 @@ export default function About() {
 
           <Col xs={12} md={6}>
             <Card className='m-2'>
-              <Card.Header className='bg-info text-white'>Front End Engineer</Card.Header>
+              <Card.Header className='bg-primary text-white'>Front End Engineer</Card.Header>
               <Card.Body>
                 <Card.Title>Lead Front End Software Engineer</Card.Title>
                 <Card.Text>
@@ -89,14 +89,14 @@ export default function About() {
                   <br />
                   <JobAccordion />
                 </Card.Text>
-                <Button variant="info text-white">Apply Now</Button>
+                <Button variant="primary text-white">Apply Now</Button>
               </Card.Body>
             </Card>
           </Col>
 
           <Col xs={12} md={6}>
             <Card className='m-2'>
-              <Card.Header className='bg-info text-white'>Front End Engineer</Card.Header>
+              <Card.Header className='bg-primary text-white'>Front End Engineer</Card.Header>
               <Card.Body>
                 <Card.Title>Lead Front End Software Engineer</Card.Title>
                 <Card.Text>

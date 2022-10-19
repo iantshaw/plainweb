@@ -4,12 +4,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'; 
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'; 
 
-// import the icons you need
-import {
-  faSearch,
-  faAmbulance,
-  faAnchor,
-} from "@fortawesome/free-solid-svg-icons";
+
 
 export default function AigFooter() {
     return (
@@ -26,6 +21,7 @@ export default function AigFooter() {
                     {/* Section: Links */}
                     <section className="">
                         {/*Grid row*/}
+                        <div className="container">
                         <div className="row">
                             {/* Grid column */}
                             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -92,6 +88,7 @@ export default function AigFooter() {
                             </div>
                             {/* Grid column */}
                         </div>
+                        </div>
                         {/*Grid row*/}
                     </section>
                     {/* Section: Links */}
@@ -100,6 +97,7 @@ export default function AigFooter() {
 
                     {/* Section: Copyright */}
                     <section className="p-3 pt-0">
+                        <div className="container">
                         <div className="row d-flex align-items-center">
                             {/* Grid column */}
                             <div className="col-md-7 col-lg-8 text-center text-md-start">
@@ -144,6 +142,7 @@ export default function AigFooter() {
                                 ><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
                             {/* Grid column */}
+                        </div>
                         </div>
                     </section>
                     {/* Section: Copyright */}
