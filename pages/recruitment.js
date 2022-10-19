@@ -35,13 +35,12 @@ export default function About() {
       <Container fluid className='bg-info'>
 
         <div id='rightgutter' className='row justify-content-md-center'>
-          <Col xs lg='3' className='m-5'>
+          <Col xs='6' lg='3' className='m-5'>
             <h1 className="display-5 fw-bold lh-1 mb-3 mt-5 text-white">Join Aigence</h1>
             <p className="lead text-white">Our mission is to free up our customer's time so they can focus on adding value to their businesses.</p>
           </Col>
-          <Col xs lg='3' className='m-5'>
+          <Col xs='0' lg='3' className='m-5'>
 
-            <br />
           </Col>
         </div>
 
