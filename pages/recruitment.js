@@ -20,25 +20,41 @@ export default function About() {
       </Head>
 
       <AigNavbar />
-      <div className='container mt-5 mb-5'>
-        <h1>About Aigence</h1>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <Container fluid className='bg-info'>
 
-        <p>At Aigence, we’re using automation to make payroll a whole lot easier, saving days in administration and empowering employees to manage their information. We’re changing payroll from a chore to an opportunity to deliver employees the information they seek. </p>
-        <p>Our mission is to free up our customers’ time to focus on adding value to their businesses and delight their employees at the same time. </p>
-        <p>Payroll has historically been painful, error-prone and backward looking, leaving employees to discover errors only after they have happened. We are changing all of this whilst significantly enhancing the user experience.</p>
+        <div id='rightgutter' className='row justify-content-md-center'>
+          <Col xs lg='3' className='m-5'>
+            <h1 className="display-5 fw-bold lh-1 mb-3 mt-5 text-white">Join Aigence</h1>
+            <p className="lead text-white">Our mission is to free up our customer's time so they can focus on adding value to their businesses.</p>
+          </Col>
+          <Col xs lg='3' className='m-5'>
+
+            <br />
+          </Col>
+        </div>
+
+      </Container>
 
 
-      </div>
-      <div className='container mt-5 mb-5'>
-        <h1>Current Opportunities</h1>
-
-
-      </div>
 
 
 
 
       <Container>
+        <h1 className="display-5 fw-bold lh-1 mb-3 mt-5 text-black">Current Opportunities</h1>
+        <br />
         <Row>
 
           <Col xs={12} md={6}>
